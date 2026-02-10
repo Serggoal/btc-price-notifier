@@ -43,7 +43,7 @@ A production-ready Telegram bot that notifies you when the price of Bitcoin (BTC
 2. **Interact in Telegram:**
     - После запуска используйте главное меню с кнопками:
        - "Уведомления" — откроет меню для BTC и ETH
-       - "Торговля" — пока не реализовано
+      - "Торговля" — реализовано (открытие позиций по ETH/USDT)
     - В разделе "Уведомления" доступны:
        - "Цена BTC":
           - "Текущая цена BTC"

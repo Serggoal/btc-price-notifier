@@ -42,3 +42,14 @@ inline_price = InlineKeyboardMarkup(
         ]
     ]
 )
+
+
+trade_menu = ReplyKeyboardMarkup(
+    keyboard=[
+        [KeyboardButton(text="Данные по свечам 15мин. ETH"), KeyboardButton(text="Открыть сделку")],
+        [KeyboardButton(text="Старт торговли"), KeyboardButton(text="Стоп торговли"), KeyboardButton(text="Закрыть сделку")],
+        [KeyboardButton(text="Статус торговли")],
+        [KeyboardButton(text="Назад")],
+    ],
+    resize_keyboard=True
+)
